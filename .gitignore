@@ -1,0 +1,30 @@
+# Data files (too large for GitHub, contains PII)
+data/
+*.csv
+
+# Power BI files (often too large for GitHub free tier)
+*.pbix
+
+# Video recordings
+*.mp4
+*.mov
+*.avi
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+etl_pipeline.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
