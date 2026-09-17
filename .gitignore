@@ -3,12 +3,12 @@ data/
 *.csv
 
 # Power BI files (often too large for GitHub free tier)
-*.pbix
+# *.pbix
 
 # Video recordings
-*.mp4
-*.mov
-*.avi
+# *.mp4
+# *.mov
+# *.avi
 
 # Python
 __pycache__/
