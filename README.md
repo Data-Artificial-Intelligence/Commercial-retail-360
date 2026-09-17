@@ -16,14 +16,33 @@ Management identified that recent strategic decisions were compromised by flawed
 * **`/powerbi`**: DAX measures and data modeling guide for the semantic layer.
 * **`/presentation`**: Executive stakeholder pitch script.
 
-## 📊 Dashboards & Deliverables
-*(Note: Add screenshots of your Power BI and Excel dashboards here, or link to a hosted version like NovyPro)*
-* **Executive Summary Dashboard** (Power BI)
-* **Operational & Audit View** (Power BI)
-* **Mid-Management Operational Report** (Excel)
+## 📊 Dashboard Screenshots
+
+### Executive Summary Dashboard
+![Executive Summary](screenshots/executive_summary.png)
+
+### Operational & Audit View
+![Operational View](screenshots/operational_view.png)
+
+### Customer Insights
+![Customer Insights](screenshots/customer_insights.png)
+
+### Excel Mid-Management Operational Report
+![Excel Report](screenshots/excel_report.png)
+
+##  Video Presentation
+[Watch the 5-minute stakeholder pitch](YOUR_LOOM_YOUTUBE_LINK_HERE)
+
+
 
 ## 🚀 How to Run
 1. Clone the repo.
 2. Install Python dependencies: `pip install -r python/requirements.txt`
 3. Set up PostgreSQL and run the scripts in the `/sql` folder in numerical order.
 4. Run the ETL pipeline: `python python/etl_pipeline.py`
+
+
+
+
+
+
