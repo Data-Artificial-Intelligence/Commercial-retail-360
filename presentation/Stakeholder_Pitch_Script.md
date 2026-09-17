@@ -15,15 +15,26 @@
 "Before building any visuals, I focused on data governance. I conducted a rigorous audit of our PostgreSQL database. As you can see in the Audit Log, I identified critical issues like duplicate customer records and PII exposure. Using SQL window functions, I implemented a 'survivor' deduplication logic, and I created secure, masked views to ensure 100% compliance with statutory privacy guidelines. Crucially, I tracked these issues in an audit log, and as required by our SLAs, 100% of these issues were identified and resolved within the same quarter."
 
 **[2:00 - 3:15] Automation & Statistical Insights**
-"To eliminate manual work, I built a Python ETL pipeline that automatically extracts, cleans, and loads data daily, aligning with ITIL change management protocols. 
-Using Python's statistical libraries, I also ran a cohort analysis. The data revealed a statistically significant trend: customers who experience delivery delays of more than 3 days have a 40% higher churn rate in the subsequent 90 days."
+"To eliminate manual work, I built a Python ETL pipeline that automatically extracts, cleans, 
+and loads data daily, aligning with ITIL change management protocols. 
+
+I also performed exploratory data analysis on delivery performance. The histogram on Page 3 
+reveals that while most orders are delivered within 10 days, there's a long tail of delayed 
+shipments. Cross-referencing this with customer data showed that delayed deliveries concentrate 
+in specific regions, indicating a logistics bottleneck we can address."
 
 **[3:15 - 4:30] Power BI Dashboard Walkthrough**
-"I’ve translated these insights into a 3-page Power BI suite. 
+"I've translated these insights into a 3-page Power BI suite. 
+
 * Page 1 is the Executive Summary, tracking high-level YoY revenue and on-time delivery SLAs. 
-* Page 2 is the Operational View, which actually tracks our data quality scores and pipeline health. 
-* Page 3 dives into the customer cohort analysis I mentioned. 
-I also built a companion Excel Power Pivot report for mid-level managers who prefer deep-diving into tabular data."
+* Page 2 is the Operational View, which tracks our data quality scores, pipeline health, and 
+  order status distribution.
+* Page 3 provides deep customer insights, showing customer spend versus frequency patterns, 
+  identifying our top 10 revenue-generating customers, and visualizing delivery time distribution 
+  to pinpoint operational inefficiencies.
+
+I also built a companion Excel Power Pivot report for mid-level managers who prefer deep-diving 
+into tabular data."
 
 **[4:30 - 5:00] Strategic Recommendation & Close**
 "Data is only as good as the actions it drives. Based on the churn risk identified in the dashboard, my strategic recommendation is to reallocate 15% of our logistics budget to the South region hubs to reduce delivery times. Statistical modeling shows this will recover an estimated 8% in lost revenue. Thank you for your time, I’m happy to take any questions."
