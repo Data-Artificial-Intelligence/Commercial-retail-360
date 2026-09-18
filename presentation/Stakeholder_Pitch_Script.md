@@ -1,15 +1,12 @@
 ---
 
-### 6. The Presentation (`/presentation` folder)
-
 **File:** `presentation/Stakeholder_Pitch_Script.md`
-*(Use this exact script to record your 5-minute Loom/Video presentation to link in your application).*
 
 ```markdown
 # Stakeholder Pitch Script (Target: 5 Minutes)
 
 **[0:00 - 0:45] Introduction & Business Context**
-"Good morning. I’m [Your Name], and today I’m presenting the Commercial Retail 360 analytics suite. Management recently highlighted that our strategic decisions were being slowed down by manual reporting and compromised by data inaccuracies. My objective for this project was to audit our raw data, automate the pipeline, and deliver a strategic dashboard that directly supports our Q3 and Q4 business objectives."
+"Good morning. I’m Antony Henry Oduor Onyango, and today I’m presenting the Commercial Retail 360 analytics suite. Management recently highlighted that our strategic decisions were being slowed down by manual reporting and compromised by data inaccuracies. My objective for this project was to audit our raw data, automate the pipeline, and deliver a strategic dashboard that directly supports our Q3 and Q4 business objectives."
 
 **[0:45 - 2:00] Data Governance & Audit (The "How")**
 "Before building any visuals, I focused on data governance. I conducted a rigorous audit of our PostgreSQL database. As you can see in the Audit Log, I identified critical issues like duplicate customer records and PII exposure. Using SQL window functions, I implemented a 'survivor' deduplication logic, and I created secure, masked views to ensure 100% compliance with statutory privacy guidelines. Crucially, I tracked these issues in an audit log, and as required by our SLAs, 100% of these issues were identified and resolved within the same quarter."

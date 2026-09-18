@@ -1,5 +1,5 @@
 # Data Analyst Competency & Development Plan (2026-2027)
-**Employee:** [Your Name] | **Role:** Data Analyst | **Review Period:** Q3 2026
+**Employee:** Antony Henry Oduor Onyango | **Role:** Data Analyst | **Review Period:** Q3 2026
 
 ## 1. Core Competency Assessment
 | Competency Area                  | Current Proficiency | Target Proficiency | Business Justification                                                                             |
