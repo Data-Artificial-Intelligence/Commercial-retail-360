@@ -31,7 +31,7 @@ Management identified that recent strategic decisions were compromised by flawed
 ![Excel Report](screenshots/excel_report.png)
 
 ##  Video Presentation
-[Watch the 5-minute stakeholder pitch](YOUR_LOOM_YOUTUBE_LINK_HERE)
+[Watch the 5-minute stakeholder pitch](presentation/pitch_recording.mp4)
 
 
 

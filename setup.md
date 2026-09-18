@@ -8,5 +8,5 @@
 
 ## Step 1: Clone & Navigate
 ```bash
-git clone https://github.com/YOUR_USERNAME/DH-Commercial-retail-360.git
-cd DH-Commercial-retail-360
+git clone https://github.com/Data-Artificial-Intelligence/Commercial-retail-360.git
+cd Commercial-retail-360
