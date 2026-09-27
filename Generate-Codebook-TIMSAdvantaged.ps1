@@ -36,7 +36,7 @@ $ExcludedExtensions = @(
     ".pyc",".pyo",".class",
     ".db",".sqlite3",".sqlite",".log",
     ".map", ".mo", ".lock", ".pth", ".bak", ".tmp",
-    ".xlsx", ".xls", ".csv", ".pem", ".crt", ".key", ".tpl"
+    ".xlsx", ".xls", ".csv", ".pem", ".crt", ".key", ".tpl", ".mp4", ".pbix"
 )
 
 # 3. Specific files to ignore (CRITICAL: Added .secrets.toml for security)
